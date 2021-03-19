@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Route path="/" exact component={Home} />
-      <Route path="/quiz" exact componet={Quiz} />
+      <Route path="/quiz" exact component={Quiz} />
     </Router>
   );
 }
