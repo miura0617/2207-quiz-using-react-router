@@ -13,7 +13,6 @@ function App() {
       <Route path="/" exact component={Home} />
       <Route path="/quiz" exact componet={Quiz} />
     </Router>
-
   );
 }
 
