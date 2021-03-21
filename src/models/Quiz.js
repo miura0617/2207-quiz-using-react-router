@@ -14,7 +14,6 @@ class Quiz {
     // }
 
     constructor({ question, correctAnswer, incorrectAnswers }) {
-        // console.log(question, correctAnswer, incorrectAnswers, '@@@@@@@@@@@');
         this._question = question;
         this._correctAnswer = correctAnswer;
         this._incorrectAnswers = [...incorrectAnswers]; // コピーを渡す
@@ -48,7 +47,7 @@ class Quiz {
 
         return quizDataList.results.map(result => {
             return {
-                qustion: he.decode(result.question),
+                question: he.decode(result.question),
                 correctAnswer: he.decode(result.correct_answer),
                 incorrectAnswers: result.incorrect_answers.map(str => he.decode(str))
             };
