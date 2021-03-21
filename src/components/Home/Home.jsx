@@ -9,7 +9,7 @@ const Home = ({history}) => {
 
     return (
         <div>
-            <h1>Homeです</h1>
+            <h1>ホーム</h1>
             <Button onClickHandler={() => {
                 // history.push()を使うと、SPAでもページ履歴を使ってページ戻ったりできる
                 history.push('/quiz');
