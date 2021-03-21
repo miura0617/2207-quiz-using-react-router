@@ -1,4 +1,4 @@
-import _, { head } from 'lodash';
+import _ from 'lodash';
 import he from 'he';
 import QuizFetcher from '../data_fetchers/QuizFetcher';
 
